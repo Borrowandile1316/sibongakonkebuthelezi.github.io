@@ -934,6 +934,37 @@
   <footer>
     <p>© 2026 <span>Sibongakonke Buthelezi</span> · IT Professional · Junior Developer · Cybersecurity Student</p>
   </footer>
+  
+<script>
+  // Formspree async form submission
+  const form = document.getElementById('contact-form');
+  if (form) {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = form.querySelector('.btn-submit');
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+      try {
+        const res = await fetch('https://formspree.io/f/mwvrepqy', {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          form.style.display = 'none';
+          document.getElementById('form-success').style.display = 'block';
+        } else {
+          btn.textContent = 'Send Message';
+          btn.disabled = false;
+          alert('Something went wrong. Please try again.');
+        }
+      } catch(err) {
+        btn.textContent = 'Send Message';
+        btn.disabled = false;
+        alert('Something went wrong. Please try again.');
+      }
+    });
+  }
 
   <script>
     const reveals = document.querySelectorAll('.reveal');

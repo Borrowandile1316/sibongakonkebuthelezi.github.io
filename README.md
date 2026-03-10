@@ -115,11 +115,17 @@ Achieved a **96% reduction** in repeat support call volumes through:
 
 ---
 
-## 📊 GitHub Stats
+## 📊 At a Glance
 
-![Sibongakonke's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Borrowandile1316&show_icons=true&theme=dark&hide_border=true&title_color=e63946&icon_color=c9a84c&text_color=e8e8f0&bg_color=050508)
+| 🏆 Experience | 📉 Impact | 🎓 Education | 📍 Location |
+|:---:|:---:|:---:|:---:|
+| **2+ Years** IT Support | **96%** Call Reduction | **Honours** Cybersecurity | **Durban, ZA** |
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Borrowandile1316&layout=compact&theme=dark&hide_border=true&title_color=e63946&text_color=e8e8f0&bg_color=050508)
+| 💻 Languages I Work With | 🔧 Tools & Platforms |
+|:---|:---|
+| `C#` `.NET` `SQL` `HTML` `CSS` `JavaScript` `jQuery` | `Git` `Linux` `MS SQL Server` `Dayforce WFM` `RFID` |
+
+![Profile Views](https://komarev.com/ghpvc/?username=Borrowandile1316&color=e63946&style=flat-square&label=Profile+Views)
 
 ---
 
